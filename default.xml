@@ -2,16 +2,25 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+      fetch="https://android.googlesource.com/" />
+
+  <remote name="github"
+      fetch="https://github.com/Technexion-Android" />
+
   <default revision="refs/tags/android-6.0.1_r22"
            remote="aosp"
            sync-j="4" />
 
+
+  <!-- Technexion customize repositories -->
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="kernel_imx" name="kernel_imx" remote="github" />
 
-<project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+
+  <!-- aosp -->
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
