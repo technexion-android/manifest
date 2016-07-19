@@ -68,6 +68,7 @@
   <project path="external/mtd-utils" name="platform_external_mtd-utils" remote="github" revision="tn-m6.0.1_2.0.0-ga" />
   <project path="external/powerdebug" name="platform_external_powerdebug" remote="github" revision="tn-m6.0.1_2.0.0-ga" />
   <project path="packages/apps/fsl_imx_demo" name="platform_packages_apps_fsl_imx_demo" remote="github" revision="tn-m6.0.1_2.0.0-ga" />
+  <project path="frameworks/ex" name="platform_frameworks_ex" remote="github" revision="tn-m6.0.1_2.0.0-ga" />
 
   <!-- TechNexion customize apps -->
   <project path="packages/apps/EDM_GPIO_PRE" name="platform_packages_apps_EDM_GPIO_PRE" remote="github" revision="tn-m6.0.1_2.0.0-ga" />
@@ -310,7 +311,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
