@@ -10,14 +10,15 @@
     review="" />
 
   <remote name="github"
-    fetch="git://github.com/Technexion-Android/" />
+    fetch="git://github.com/technexion-android/" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+    fetch="https://android.googlesource.com/"
+    review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-8.0.0_r25"
-           remote="aosp"
-           sync-j="4" />
+    remote="aosp"
+    sync-j="4" />
 
   <!--> imx-firmware needs to be fetched from git.freescale.com as it is proprietary <-->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="87ba304b9efbb2e8dbdd54af4c087584fb259535" />
@@ -28,7 +29,6 @@
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
 
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="device/fsl" name="android-imx/device/fsl" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/imx" name="android-imx/platform/hardware/imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx/platform/packages/apps/fsl_imx_demo" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
 
