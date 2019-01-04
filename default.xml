@@ -40,6 +40,7 @@
   <project path="external/qca-linux" name="qca-linux-calibration" remote="qca-linux" revision="refs/heads/i.MX8x-1cq-morty" />
 
   <!-- Technexion customized git. -->
+  <project path="cookers" name="cookers" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
