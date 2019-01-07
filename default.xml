@@ -44,12 +44,19 @@
   <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+  <project path="vendor/nxp-opensource/imx-mkimage" name="imx-mkimage" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga"/>
+  <project path="frameworks/native" name="platform_frameworks_native" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+  <project path="system/bt" name="platform_system_bt" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+
 
   <!-- Unchanged git. -->
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
-  <project path="vendor/nxp-opensource/imx-mkimage" name="imx-mkimage" remote="imx-linux-sdk" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
 
-  <project path="vendor/nxp-opensource/imx" name="platform/hardware/imx" remote="android-imx-orig" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
 
   <!-- For imx changed aosp git. -->
@@ -70,10 +77,7 @@
   <project path="external/avb" name="platform/external/avb" groups="pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga"  />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
@@ -409,7 +413,6 @@
   <project path="external/walt" name="platform/external/walt" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
   <project path="external/x264" name="platform/external/x264" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
@@ -512,7 +515,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
@@ -617,7 +619,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
