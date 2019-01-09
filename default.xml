@@ -27,6 +27,7 @@
   <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+  <project path="cookers" name="cookers" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
 
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/imx" name="android-imx/platform/hardware/imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
