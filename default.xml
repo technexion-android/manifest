@@ -53,14 +53,7 @@
   <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="system/bt" name="platform_system_bt" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
-
-  <!-- Unchanged git. -->
-  <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
-
-  <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
-
-  <!-- For imx changed aosp git. -->
-  <project path="build/make" name="platform/build" groups="pdk" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga">
+  <project path="build/make" name="platform_build" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -69,6 +62,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+
+  <!-- Unchanged git. -->
+  <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
+
+  <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
+
+  <!-- For imx changed aosp git. -->
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="android-imx" revision="refs/tags/o8.1.0_1.3.0_8m-ga">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
