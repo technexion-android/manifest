@@ -28,13 +28,7 @@
   <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
   <project path="cookers" name="cookers" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
-
-  <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="vendor/nxp-opensource/imx" name="android-imx/platform/hardware/imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx/platform/packages/apps/fsl_imx_demo" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-
-  <!-- For imx changed aosp git. -->
-  <project path="build/make" name="aosp/platform/build" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga">
+  <project path="build/make" name="platform_build" remote="github" revision="tn-o8.0.0_1.0.0-ga">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -43,6 +37,21 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+  <project path="packages/apps/TN_REBOOT" name="platform_packages_apps_TN_REBOOT" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+  <project path="packages/apps/EDM_GPIO_PRE" name="platform_packages_apps_EDM_GPIO_PRE" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+  <project path="packages/apps/EDM_CANBUS_PRE" name="platform_packages_apps_EDM_CANBUS_PRE" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+  <project path="packages/apps/EDM_UART_PRE" name="platform_packages_apps_EDM_UART_PRE" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+  <project path="system/bt" name="platform_system_bt" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
+
+
+
+  <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx/platform/packages/apps/fsl_imx_demo" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+
+  <!-- For imx changed aosp git. -->
   <project path="build/soong" name="aosp/platform/build/soong" groups="pdk,tradefed" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -52,7 +61,6 @@
   <project path="external/tinyalsa" name="aosp/platform/external/tinyalsa" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
   <project path="external/f2fs-tools" name="aosp/platform/external/f2fs-tools" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
   <project path="frameworks/av" name="aosp/platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="frameworks/base" name="aosp/platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="frameworks/layoutlib" name="aosp/platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="frameworks/native" name="aosp/platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="hardware/broadcom/libbt" name="aosp/platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
@@ -387,7 +395,6 @@
   <project path="external/walt" name="platform/external/walt" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
   <project path="external/x264" name="platform/external/x264" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
@@ -596,7 +603,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
