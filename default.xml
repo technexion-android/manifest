@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="github"
+    fetch="git://github.com/technexion-android/" />
+
+
   <remote  name="android-imx"
-           fetch="https://source.codeaurora.org/external/imx/aosp/"
-           review="" />
+    fetch="https://source.codeaurora.org/external/imx/aosp/"
+    review="" />
 
   <remote  name="android-imx-orig"
-           fetch="https://source.codeaurora.org/external/imx/android-imx"
-           review="" />
+    fetch="https://source.codeaurora.org/external/imx/android-imx"
+    review="" />
 
   <remote  name="imx-linux-sdk"
-           fetch="https://source.codeaurora.org/external/imx/"
-           review="" />
+    fetch="https://source.codeaurora.org/external/imx/"
+    review="" />
 
   <remote  name="imx-proprietary"
-           fetch="https://github.com/nxp/"
-           review="" />
+    fetch="https://github.com/nxp/"
+    review="" />
 
   <remote  name="kernel"
-           fetch="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/"
-           review="" />
+    fetch="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/"
+    review="" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+    fetch="https://android.googlesource.com/"
+    review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-9.0.0_r16"
-           remote="aosp"
-           sync-j="4" />
+    remote="aosp"
+    sync-j="4" />
 
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="3a01285785a7391bb62b5fcf0400208c3fe391bf" />
   <project path="external/linux-firmware" name="linux-firmware" remote="kernel" revision="bf04291309d3169c0ad3b8db52564235bbd08e30" />
