@@ -45,7 +45,7 @@
   <project path="packages/apps/EDM_UART_PRE" name="platform_packages_apps_EDM_UART_PRE" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
   <project path="system/bt" name="platform_system_bt" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
-
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
 
 
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
@@ -63,7 +63,6 @@
   <project path="frameworks/av" name="aosp/platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="frameworks/layoutlib" name="aosp/platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="frameworks/native" name="aosp/platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="hardware/broadcom/libbt" name="aosp/platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/apps/Bluetooth" name="aosp/platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/apps/Camera2" name="aosp/platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/apps/DeskClock" name="aosp/platform/packages/apps/DeskClock" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
