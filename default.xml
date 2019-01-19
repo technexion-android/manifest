@@ -62,6 +62,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="packages/apps/UartTestAarch64" name="platform_packages_apps_UartTestAarch64" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
 
   <!-- Unchanged git. -->
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
