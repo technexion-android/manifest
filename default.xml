@@ -66,6 +66,7 @@
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="external/i2ctools" name="platform_external_i2ctools" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
   <project path="external/can-utils" name="platform_external_can-utils" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
+  <project path="packages/apps/TermuxPrebuilt" name="platform_package_apps_TermuxPrebuilt" remote="github" revision="tn-o8.1.0_1.3.0_8m-ga" />
 
   <!-- Unchanged git. -->
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/o8.1.0_1.3.0_8m-ga" />
