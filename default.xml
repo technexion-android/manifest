@@ -46,7 +46,7 @@
   <project path="system/bt" name="platform_system_bt" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
-
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-o8.0.0_1.0.0-ga" />
 
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx/platform/packages/apps/fsl_imx_demo" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
@@ -458,7 +458,6 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
