@@ -48,6 +48,7 @@
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-p9.0.0_1.0.0-wip" />
   <project path="cookers" name="cookers" remote="github" revision="tn-p9.0.0_1.0.0-wip" />
   <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-p9.0.0_1.0.0-wip" />
+  <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="tn-p9.0.0_1.0.0-wip" />
 
 
   <!-- For imx public git. -->
