@@ -26,6 +26,7 @@
     review="" />
 
   <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+  <remote name="nezor" fetch="https://gitlab.nezorfla.me/opengapps/"  />
 
   <remote  name="aosp"
     fetch="https://android.googlesource.com/"
@@ -72,11 +73,11 @@
 
   <!-- opengapp part. -->
   <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="nezor" />
 
   <!-- arm64 depends on arm -->
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="nezor" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="nezor" />
 
   <!-- For imx changed aosp git. -->
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" >
