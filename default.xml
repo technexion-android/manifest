@@ -4,6 +4,8 @@
   <remote name="github"
     fetch="git://github.com/technexion-android/" />
 
+  <remote name="technexion"
+    fetch="git://github.com/TechNexion/" />
 
   <remote  name="android-imx"
     fetch="https://source.codeaurora.org/external/imx/aosp/"
