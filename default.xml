@@ -40,6 +40,7 @@
   <!-- Technexion customized git -->
   <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-p9.0.0_1.0.0-wip" />
   <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-p9.0.0_1.0.0-wip" />
+  <project path="vendor/nxp-opensource/out-of-tree_drivers/tfa98xx" name="tfa98xx" remote="technexion" revision="tn-DIN_v6.5.5" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu" remote="github" revision="tn-p9.0.0_1.0.0-wip" />
   <project path="build/make" name="platform_build" remote="github" revision="tn-p9.0.0_1.0.0-wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
