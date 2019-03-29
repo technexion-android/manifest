@@ -62,6 +62,8 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-p9.0.0_1.0.0_8m-ga" />
   <project path="packages/apps/UartTestAarch64" name="platform_packages_apps_UartTestAarch64" remote="github" revision="tn-p9.0.0_1.0.0_8m-ga" />
   <project path="packages/apps/TermuxPrebuilt" name="platform_package_apps_TermuxPrebuilt" remote="github" revision="tn-p9.0.0_1.0.0_8m-ga" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-p9.0.0_1.0.0_8m-ga" />
+
 
   <!-- For imx public git. -->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="3a01285785a7391bb62b5fcf0400208c3fe391bf" />
@@ -97,7 +99,6 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" />
