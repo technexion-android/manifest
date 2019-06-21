@@ -52,6 +52,7 @@
   <project path="packages/apps/UartTestAarch64" name="platform_packages_apps_UartTestAarch64" remote="github" revision="tn-p9.0.0_2.0.0_8m-wip" />
   <project path="packages/apps/TermuxPrebuilt" name="platform_package_apps_TermuxPrebuilt" remote="github" revision="tn-p9.0.0_2.0.0_8m-wip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-p9.0.0_2.0.0_8m-wip" />
+  <project path="packages/apps/AudioRecorderPrebuilt" name="platform_packages_apps_AudioRecorderPrebuilt" remote="github" revision="tn-p9.0.0_2.0.0_8m-wip" />
 
   <!-- For imx public git. -->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="6a99c832e2222eff652d58f95faf2ea1aed54ce0" />
