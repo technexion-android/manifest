@@ -23,52 +23,43 @@
     fetch="https://github.com/nxp/"
     review="" />
 
-  <remote  name="kernel"
-    fetch="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/"
-    review="" />
-
   <remote  name="aosp"
-    fetch="https://android.googlesource.com/"
-    review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-9.0.0_r30"
-    remote="aosp"
-    sync-j="4" />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+  <default revision="refs/tags/android-9.0.0_r35"
+           remote="aosp"
+           sync-j="4" />
 
   <!-- Technexion customized git -->
-  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
+  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="technexion" revision="tn-imx_v2018.03_4.14.98_2.0.0_ga-wip" />
   <project path="vendor/nxp-opensource/out-of-tree_drivers/tfa98xx" name="tfa98xx" remote="technexion" revision="tn-DIN_v6.5.5" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu" remote="github" revision="tn-p9.0.0_1.0.0_8m-ga" />
-  <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="cookers" name="cookers" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="external/i2ctools" name="platform_external_i2ctools" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="system/core" name="platform_system_core" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="packages/apps/UartTestAarch64" name="platform_packages_apps_UartTestAarch64" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="packages/apps/TermuxPrebuilt" name="platform_package_apps_TermuxPrebuilt" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="packages/apps/AudioRecorderPrebuilt" name="platform_packages_apps_AudioRecorderPrebuilt" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
+  <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="cookers" name="cookers" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="external/i2ctools" name="platform_external_i2ctools" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/UartTestAarch64" name="platform_packages_apps_UartTestAarch64" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/TermuxPrebuilt" name="platform_package_apps_TermuxPrebuilt" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/AudioRecorderPrebuilt" name="platform_packages_apps_AudioRecorderPrebuilt" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/EDM_CANBUS_PRE" name="platform_packages_apps_EDM_CANBUS_PRE" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="external/can-utils" name="platform_external_can-utils" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+
+  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="f6d0859f9435796f03ae93b70b5f92f4406bc56d" />
 
   <!-- For imx public git. -->
-  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="6a99c832e2222eff652d58f95faf2ea1aed54ce0" />
-  <project path="external/linux-firmware" name="linux-firmware" remote="kernel" revision="bf04291309d3169c0ad3b8db52564235bbd08e30" />
+  <project path="vendor/nxp-opensource/arm-trusted-firmware" name="imx-atf" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="vendor/nxp-opensource/imx-mkimage" name="imx-mkimage" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="vendor/nxp-opensource/libdrm-imx" name="libdrm-imx" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.2.0-ga" />
 
-  <!-- For imx public git. -->
-  <project path="vendor/nxp-opensource/arm-trusted-firmware" name="imx-atf" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="vendor/nxp-opensource/imx-mkimage" name="imx-mkimage" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="vendor/nxp-opensource/libdrm-imx" name="libdrm-imx" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.0.0-ga" />
-
-  <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/p9.0.0_2.0.0-ga" />
+  <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/p9.0.0_2.2.0-ga" />
 
   <!-- For imx changed aosp git. -->
-  <project path="art" name="platform/art" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga"/>
-  <project path="build/make" name="platform/build" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" >
+  <project path="art" name="platform/art" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga"/>
+  <project path="build/make" name="platform/build" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -77,33 +68,43 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" >
+  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="external/avb" name="platform/external/avb" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga"  />
-  <project path="packages/apps/Car/Hvac" name="platform/packages/apps/Car/Hvac" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="system/media" name="platform/system/media" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="system/tools/bpt" name="platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="external/avb" name="platform/external/avb" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga"  />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/Car/Hvac" name="platform/packages/apps/Car/Hvac" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga"/>
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="system/media" name="platform/system/media" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="system/tools/bpt" name="platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
 
   <!-- aosp part -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -428,7 +429,6 @@
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/skqp" name="platform/external/skqp" groups="cts" clone-depth="1" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" />
@@ -600,10 +600,8 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
@@ -711,8 +709,6 @@
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
-  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
-  <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -724,7 +720,6 @@
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="test/vti/alert" name="platform/test/vti/alert" groups="vts,pdk" />
