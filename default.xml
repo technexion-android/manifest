@@ -38,6 +38,7 @@
   <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="vendor/nxp-opensource/out-of-tree_drivers/tfa98xx" name="tfa98xx" remote="technexion" revision="tn-DIN_v6.5.5" />
+  <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu" remote="github" revision="tn-p9.0.0_1.0.0_8m-ga" />
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="cookers" name="cookers" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
@@ -46,6 +47,7 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="external/i2ctools" name="platform_external_i2ctools" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="system/core" name="platform_system_core" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
@@ -53,11 +55,11 @@
   <project path="packages/apps/TermuxPrebuilt" name="platform_package_apps_TermuxPrebuilt" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="packages/apps/AudioRecorderPrebuilt" name="platform_packages_apps_AudioRecorderPrebuilt" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
 
   <!-- For imx public git. -->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="6a99c832e2222eff652d58f95faf2ea1aed54ce0" />
   <project path="external/linux-firmware" name="linux-firmware" remote="kernel" revision="bf04291309d3169c0ad3b8db52564235bbd08e30" />
-  <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
 
   <!-- For imx public git. -->
   <project path="vendor/nxp-opensource/arm-trusted-firmware" name="imx-atf" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.0.0-ga" />
@@ -537,7 +539,6 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
-  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
@@ -608,7 +609,6 @@
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
