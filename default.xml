@@ -35,14 +35,14 @@
     sync-j="4" />
 
   <!-- Technexion customized git -->
-  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
+  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-p9.0.0_2.0.1_8m-wip" />
+  <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-edm" remote="technexion" revision="efae791ac2a9ee275b41fa501256c1873a365f39" />
   <project path="vendor/nxp-opensource/out-of-tree_drivers/tfa98xx" name="tfa98xx" remote="technexion" revision="tn-DIN_v6.5.5" />
   <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu" remote="github" revision="tn-p9.0.0_1.0.0_8m-ga" />
-  <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="cookers" name="cookers" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
-  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
+  <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-p9.0.0_2.0.1_8m-wip" />
+  <project path="cookers" name="cookers" remote="github" revision="tn-p9.0.0_2.0.1_8m-wip" />
+  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-p9.0.0_2.0.1_8m-wip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
@@ -56,6 +56,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="packages/apps/AudioRecorderPrebuilt" name="platform_packages_apps_AudioRecorderPrebuilt" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="github" revision="tn-p9.0.0_2.0.0_8m-ga" />
+  <project path="system/vold" name="platform_system_vold" remote="github" revision="tn-p9.0.0_2.0.1_8m-wip" />
 
   <!-- For imx public git. -->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="6a99c832e2222eff652d58f95faf2ea1aed54ce0" />
@@ -724,7 +725,6 @@
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="test/vti/alert" name="platform/test/vti/alert" groups="vts,pdk" />
