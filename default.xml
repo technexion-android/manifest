@@ -36,7 +36,7 @@
 
   <!-- Technexion customized git -->
   <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-edm" remote="technexion" revision="9a070a5b4460124054bc459edfc9d1b43e5403bb" />
+  <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-edm" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
   <project path="vendor/nxp-opensource/out-of-tree_drivers/tfa98xx" name="tfa98xx" remote="technexion" revision="tn-DIN_v6.5.5" />
   <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
