@@ -58,6 +58,7 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
   <project path="system/vold" name="platform_system_vold" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
   <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
 
   <!-- For imx public git. -->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="6a99c832e2222eff652d58f95faf2ea1aed54ce0" />
@@ -106,7 +107,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
   <project path="system/tools/bpt" name="platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.0.0-ga" />
 
   <!-- aosp part -->
