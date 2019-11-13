@@ -37,7 +37,7 @@
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
   <project path="cookers" name="cookers" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
   <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-p9.0.0_2.2.1-ga" />
   <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
   <project path="external/i2ctools" name="platform_external_i2ctools" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
   <project path="packages/apps/UartTestAarch64" name="platform_packages_apps_UartTestAarch64" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
