@@ -103,7 +103,6 @@
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="system/tools/bpt" name="platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
 
