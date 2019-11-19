@@ -48,6 +48,7 @@
   <project path="external/can-utils" name="platform_external_can-utils" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform_packages_apps_fsl_imx_demo" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
 
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="f6d0859f9435796f03ae93b70b5f92f4406bc56d" />
 
