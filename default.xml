@@ -35,33 +35,33 @@
     sync-j="4" />
 
   <!-- Technexion customized git -->
-  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
+  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="github" revision="tn-imx_v2018.03_4.14.98_2.0.0_ga-wip" />
   <project path="vendor/nxp-opensource/out-of-tree_drivers/tfa98xx" name="tfa98xx" remote="technexion" revision="tn-DIN_v6.5.5" />
-  <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="cookers" name="cookers" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="external/i2ctools" name="platform_external_i2ctools" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="system/core" name="platform_system_core" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="packages/apps/UartTestAarch64" name="platform_packages_apps_UartTestAarch64" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="packages/apps/TermuxPrebuilt" name="platform_package_apps_TermuxPrebuilt" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="packages/apps/AudioRecorderPrebuilt" name="platform_packages_apps_AudioRecorderPrebuilt" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="system/vold" name="platform_system_vold" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="external/openssh" name="platform_external_openssh" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
-  <project path="external/ethtool" name="platform_external_ethtool" remote="github" revision="tn-p9.0.0_2.0.1_8m-ga" />
+  <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="device/fsl" name="platform_device_fsl" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="cookers" name="cookers" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="external/i2ctools" name="platform_external_i2ctools" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="system/core" name="platform_system_core" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="packages/apps/UartTestAarch64" name="platform_packages_apps_UartTestAarch64" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="packages/apps/TermuxPrebuilt" name="platform_package_apps_TermuxPrebuilt" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="packages/apps/AudioRecorderPrebuilt" name="platform_packages_apps_AudioRecorderPrebuilt" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="system/vold" name="platform_system_vold" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="external/openssh" name="platform_external_openssh" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
+  <project path="external/ethtool" name="platform_external_ethtool" remote="github" revision="refs/tags/tn-p9.0.0_2.0.1_8m-ga_tn2.0" />
 
   <!-- For imx public git. -->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="6a99c832e2222eff652d58f95faf2ea1aed54ce0" />
