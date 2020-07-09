@@ -6,7 +6,7 @@
     review="" />
 
   <remote  name="imx-proprietary"
-    fetch="git://git.freescale.com/proprietary/"
+    fetch="https://github.com/nxp/"
     review="" />
 
   <remote name="github"
