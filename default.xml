@@ -51,6 +51,7 @@
   <project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
   <project path="external/hcitools" name="platform_external_hcitools" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="github" revision="tn-p9.0.0_2.2.0-ga" />
 
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="f6d0859f9435796f03ae93b70b5f92f4406bc56d" />
 
@@ -83,7 +84,6 @@
   <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_2.2.0-ga" />
