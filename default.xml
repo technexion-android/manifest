@@ -47,7 +47,6 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="github" revision="tn-android-10.0.0-2.5.0_8m-next" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="github" revision="tn-android-10.0.0-2.5.0_8m-next" />
   <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="tn-android-10.0.0-2.5.0_8m-next" />
-  <project path="system/core" name="platform_system_core" remote="github" revision="tn-android-10.0.0-2.5.0_8m-next" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-android-10.0.0-2.5.0_8m-next" />
   <project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="github" revision="tn-android-10.0.0-2.5.0_8m-next" />
   <project path="external/openssh" name="platform_external_openssh" remote="github" revision="tn-android-10.0.0-2.5.0_8m-next" />
@@ -104,6 +103,7 @@
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-10.0.0_2.5.0" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-10.0.0_2.5.0" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.5.0" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.5.0" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.5.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.5.0"/>
   <project path="system/media" name="platform/system/media" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.5.0" />
