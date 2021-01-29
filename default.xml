@@ -49,8 +49,12 @@
   <project path="external/libgpiod" name="platform_external_libgpiod" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
   <project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
   <project path="external/openssh" name="platform_external_openssh" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
   <project path="external/ethtool" name="platform_external_ethtool" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
+  <project path="system/nfc" name="platform_system_nfc" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
+  <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
 
   <!-- For imx 3rd git. -->
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="07057d35d830643682bf8a6878502165fe847ddd" />
@@ -576,7 +580,6 @@
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
@@ -660,7 +663,6 @@
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PermissionController" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
@@ -785,7 +787,6 @@
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
