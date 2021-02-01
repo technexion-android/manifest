@@ -36,7 +36,7 @@
 
   <!-- Technexion customized git -->
   <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
-  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="technexion" revision="refs/tags/tn-android-10.0.0-2.6.0_8m-next" />
+  <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="refs/tags/tn-android-10.0.0-2.6.0_8m-next" />
   <project path="device/fsl" name="platform_device_fsl" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" >
     <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
   </project>
