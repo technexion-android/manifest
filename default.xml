@@ -94,7 +94,6 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0"  />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
