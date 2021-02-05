@@ -57,6 +57,7 @@
   <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
   <project path="packages/apps/LesserAudioSwitch" name="platform_packages_apps_LesserAudioSwitch" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
   <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="github" revision="tn-android-10.0.0-2.6.0_8m-next" />
 
   <!-- For imx 3rd git. -->
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="07057d35d830643682bf8a6878502165fe847ddd" />
@@ -114,7 +115,6 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0"/>
   <project path="system/media" name="platform/system/media" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
   <project path="system/tools/bpt" name="platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="android-imx" revision="refs/tags/android-10.0.0_2.6.0" />
 
   <!-- aosp part -->
