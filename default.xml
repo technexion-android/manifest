@@ -62,6 +62,7 @@
   <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
 
   <!-- For imx 3rd git. -->
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="90e83fc9933c28c2b231d0efb9d98665ec1d844a" />
@@ -92,7 +93,6 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
