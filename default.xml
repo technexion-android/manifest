@@ -41,7 +41,7 @@
   <!-- Technexion customized git -->
   <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="device/fsl" name="platform_device_fsl" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" >
+  <project path="device/nxp" name="platform_device_fsl" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" >
     <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
   </project>
 
@@ -61,6 +61,7 @@
   <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
 
   <!-- For imx 3rd git. -->
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="90e83fc9933c28c2b231d0efb9d98665ec1d844a" />
@@ -76,10 +77,6 @@
   <project path="vendor/nxp-opensource/verisilicon_sw_isp_vvcam" name="isp-vvcam" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="vendor/nxp/vpu_wrapper" name="imx-vpuwrap" remote="imx-proprietary" revision="refs/tags/android-11.0.0_1.2.0" />
 
-  <project path="device/nxp" name="device/fsl" remote="android-imx-orig" revision="refs/tags/android-11.0.0_1.2.0" >
-    <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
-  </project>
-  <project path="vendor/nxp-opensource/imx" name="platform/hardware/imx" remote="android-imx-orig" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="hardware/nxp/libbt" name="platform/hardware/nxp/libbt" remote="android-imx-orig" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="hardware/nxp/wlan" name="platform/hardware/nxp/wlan" remote="android-imx-orig" revision="refs/tags/android-11.0.0_1.2.0" />
@@ -92,12 +89,9 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
@@ -105,9 +99,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
 
   <!-- aosp part -->
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -263,7 +255,6 @@
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" />
-  <project path="external/ethtool" name="platform/external/ethtool" groups="pdk" />
   <project path="external/exoplayer" name="platform/external/exoplayer" groups="pdk" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
@@ -434,7 +425,6 @@
   <project path="external/opencensus-java" name="platform/external/opencensus-java" groups="pdk,tradefed" />
   <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS" />
   <project path="external/OpenCSD" name="platform/external/OpenCSD" groups="pdk" />
-  <project path="external/openssh" name="platform/external/openssh" groups="pdk" />
   <project path="external/oss-fuzz" name="platform/external/oss-fuzz" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
@@ -595,7 +585,6 @@
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
@@ -689,13 +678,11 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OnDeviceAppPrediction" name="platform/packages/apps/OnDeviceAppPrediction" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PermissionController" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
@@ -845,7 +832,6 @@
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" />
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
