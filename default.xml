@@ -63,6 +63,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
+  <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
 
   <!-- For imx 3rd git. -->
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="90e83fc9933c28c2b231d0efb9d98665ec1d844a" />
@@ -220,7 +221,6 @@
   <project path="external/cbor-java" name="platform/external/cbor-java" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cldr" name="platform/external/cldr" groups="pdk" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" />
