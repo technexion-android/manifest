@@ -39,31 +39,31 @@
            sync-j="4" />
 
   <!-- Technexion customized git -->
-  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="device/nxp" name="platform_device_fsl" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" >
+  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="device/nxp" name="platform_device_fsl" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" >
     <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
   </project>
 
-  <project path="cookers" name="cookers" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="external/libgpiod" name="platform_external_libgpiod" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="external/openssh" name="platform_external_openssh" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="external/ethtool" name="platform_external_ethtool" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="system/nfc" name="platform_system_nfc" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
+  <project path="cookers" name="cookers" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="external/libgpiod" name="platform_external_libgpiod" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="external/openssh" name="platform_external_openssh" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="external/ethtool" name="platform_external_ethtool" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="system/nfc" name="platform_system_nfc" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
+  <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="tn_github" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-ga-tn1.0" />
 
   <!-- For imx 3rd git. -->
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="90e83fc9933c28c2b231d0efb9d98665ec1d844a" />
