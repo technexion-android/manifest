@@ -64,7 +64,7 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-
+  <project path="hardware/ril" name="platform_hardware_ril" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <!-- For imx 3rd git. -->
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="90e83fc9933c28c2b231d0efb9d98665ec1d844a" />
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="refs/tags/android-11.0.0_1.2.0" />
@@ -637,7 +637,6 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150p/Android.bp" />
   </project>
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
