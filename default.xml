@@ -34,7 +34,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-11.0.0_r18"
+  <default revision="refs/tags/android-11.0.0_r36"
            remote="aosp"
            sync-j="4" />
 
@@ -62,47 +62,49 @@
   <project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
-  <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="external/can-utils" name="platform_external_can-utils" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
 
   <!-- For imx 3rd git. -->
-  <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="90e83fc9933c28c2b231d0efb9d98665ec1d844a" />
-  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="refs/tags/android-11.0.0_1.2.0" />
+  <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="04f3e5411b1cdc59292775e7b8e05a5d35ea4a80" />
+  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="refs/tags/android-11.0.0_2.2.0" />
   <project path="external/glm" name="g-truc/glm" remote="github" revision="bf71a834948186f4097caa076cd2663c69a10e1e" />
 
-  <!-- For imx public git. -->
-  <project path="vendor/nxp-opensource/arm-trusted-firmware" name="imx-atf" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="vendor/nxp-opensource/imx-mkimage" name="imx-mkimage" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="vendor/nxp-opensource/libdrm-imx" name="libdrm-imx" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="vendor/nxp-opensource/nn-imx" name="nn-imx" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="vendor/nxp-opensource/verisilicon_sw_isp_vvcam" name="isp-vvcam" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="vendor/nxp/vpu_wrapper" name="imx-vpuwrap" remote="imx-proprietary" revision="refs/tags/android-11.0.0_1.2.0" />
 
-  <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="hardware/nxp/libbt" name="platform/hardware/nxp/libbt" remote="android-imx-orig" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="hardware/nxp/wlan" name="platform/hardware/nxp/wlan" remote="android-imx-orig" revision="refs/tags/android-11.0.0_1.2.0" />
+  <!-- For imx public git. -->
+  <project path="vendor/nxp-opensource/arm-trusted-firmware" name="imx-atf" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="vendor/nxp-opensource/imx-mkimage" name="imx-mkimage" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="vendor/nxp-opensource/libdrm-imx" name="libdrm-imx" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="vendor/nxp-opensource/nn-imx" name="nn-imx" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_1.2.0" />
+  <project path="vendor/nxp-opensource/nxp-mwifiex" name="mwifiex" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="vendor/nxp-opensource/verisilicon_sw_isp_vvcam" name="isp-vvcam" remote="imx-linux-sdk" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="vendor/nxp/vpu_wrapper" name="imx-vpuwrap" remote="imx-proprietary" revision="refs/tags/android-11.0.0_2.2.0" />
+
+  <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="hardware/nxp/libbt" name="platform/hardware/nxp/libbt" remote="android-imx-orig" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="hardware/nxp/wlan" name="platform/hardware/nxp/wlan" remote="android-imx-orig" revision="refs/tags/android-11.0.0_2.2.0" />
+
 
   <!-- For imx changed aosp git. -->
-  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0"/>
-  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
-  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0"/>
+  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0"/>
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
+  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_1.2.0" />
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
 
   <!-- aosp part -->
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -151,16 +153,15 @@
   <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
   <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
   <project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
-  <project path="device/google/bramble-kernel" name="device/google/bramble-kernel" groups="device,bramble" clone-depth="1" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
   <project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
   <project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
+  <project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,redbull" clone-depth="1" />
   <project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
   <project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" />
-  <project path="device/google/redfin-kernel" name="device/google/redfin-kernel" groups="device,redfin" clone-depth="1" />
   <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
   <project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
   <project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
@@ -223,6 +224,7 @@
   <project path="external/cbor-java" name="platform/external/cbor-java" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cldr" name="platform/external/cldr" groups="pdk" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" />
@@ -642,7 +644,6 @@
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
@@ -675,6 +676,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
+  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
