@@ -64,6 +64,7 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
   <project path="external/can-utils" name="platform_external_can-utils" remote="tn_github" revision="tn-android-11.0.0_1.2.0_8m-next" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="tn_github" revision="tn-android-11.0.0_2.2.0_8m_next" />
 
   <!-- For imx 3rd git. -->
   <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="04f3e5411b1cdc59292775e7b8e05a5d35ea4a80" />
@@ -93,7 +94,6 @@
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
   <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="android-imx" revision="refs/tags/android-11.0.0_2.2.0" />
