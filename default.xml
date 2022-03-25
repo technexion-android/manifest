@@ -10,7 +10,7 @@
     review="" />
 
   <remote name="github"
-    fetch="git://github.com/technexion-android/" />
+    fetch="https://github.com/technexion-android/" />
 
   <remote  name="aosp"
     fetch="https://android.googlesource.com/"
