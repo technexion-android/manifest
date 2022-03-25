@@ -2,10 +2,10 @@
 <manifest>
 
   <remote name="github"
-    fetch="git://github.com/technexion-android/" />
+    fetch="https://github.com/technexion-android/" />
 
   <remote name="technexion"
-    fetch="git://github.com/TechNexion/" />
+    fetch="https://github.com/TechNexion/" />
 
   <remote  name="android-imx"
     fetch="https://source.codeaurora.org/external/imx/aosp/"
