@@ -33,5 +33,5 @@
 
 <project path="external/libgpiod" name="platform_external_libgpiod" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
 <!-- project path="packages/apps/LibgpiodPrebuilt" name="package_apps_LibgpiodPrebuilt" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" /-->
-<project path="packages/apps/LibgpiodPrebuilt" name="package_apps_LibgpiodPrebuilt" remote="tn_github" revision="tn-android-12.0.0_1.0.0_8m-next" />
+<project path="packages/apps/LibgpiodPrebuilt" name="package_apps_LibgpiodPrebuilt" remote="tn_android" revision="tn-android-12.0.0_1.0.0_8m-next" />
 </manifest>
