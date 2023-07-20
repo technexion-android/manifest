@@ -3,16 +3,11 @@
 
 <include name="rel_android-13.0.0_1.2.0.xml"/>
 
-<!--
 <remote name="tn_android" fetch="https://github.com/technexion-android/" />
 <remote name="technexion" fetch="https://github.com/TechNexion/" />
--->
-<remote name="tn_android" fetch="ssh://rdsw@10.20.30.20:/volume1/internal_git/tn_android/" />
-<remote name="technexion" fetch="ssh://rdsw@10.20.30.20:/volume1/internal_git/" />
-
 <!-- Replace vendor/nxp-opensource/uboot-imx with technexion's one -->
 <remove-project name="uboot-imx" />
-<project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="refs/tags/tn-android-13.0.0_1.2.0_8m-next" />
+<project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="tn-imx_v2022.04_5.15.71_2.2.0-android" />
 
 <!-- Replace vendor/nxp-opensource/kernel_imx with technexion's one -->
 <remove-project name="linux-imx" />
