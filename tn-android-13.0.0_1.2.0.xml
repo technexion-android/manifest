@@ -13,20 +13,23 @@
 <remove-project name="linux-imx" />
 <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
 
-<!-- Replace device/nxp with technexion's one -->
+<!-- Replace hardware/qcom/bt with technexion -->
+<remove-project name="platform/hardware/qcom/bt" />
+<project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_android" groups="qcom,pdk-qcom" revision="tn-android-13.0.0_1.2.0_8m-next" />
+
+<!-- Replace device/nxp with technexion -->
 <remove-project name="android-imx_device_fsl" />
 <project path="device/nxp" name="platform_device_fsl" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" >
 	<linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
 </project>
 
-<!-- Replace hardware/qcom/bt with technexion's one -->
-<remove-project name="platform/hardware/qcom/bt" />
-<project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
+<!-- Replace clang for NxP -->
+<remove-project name="platform/prebuilts/clang/host/linux-x86" />
+<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" revision="refs/tags/android-13.0.0_r0.5" />
 
 <project path="cookers" name="cookers" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
-<project path="vendor/technexion" name="platform_vendor_technexion" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
-
+<project path="vendor/technexion" name="vendor_technexion" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
 <project path="external/libgpiod" name="platform_external_libgpiod" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
-<!-- project path="packages/apps/LibgpiodPrebuilt" name="package_apps_LibgpiodPrebuilt" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" /-->
 <project path="packages/apps/LibgpiodPrebuilt" name="package_apps_LibgpiodPrebuilt" remote="tn_android" revision="tn-android-12.0.0_1.0.0_8m-next" />
+
 </manifest>
