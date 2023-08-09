@@ -5,13 +5,18 @@
 
 <remote name="tn_android" fetch="https://github.com/technexion-android/" />
 <remote name="technexion" fetch="https://github.com/TechNexion/" />
-<!-- Replace vendor/nxp-opensource/uboot-imx with technexion's one -->
+
+<!-- Replace vendor/nxp-opensource/uboot-imx with technexion -->
 <remove-project name="uboot-imx" />
 <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="tn-imx_v2022.04_5.15.71_2.2.0-android" />
 
-<!-- Replace vendor/nxp-opensource/kernel_imx with technexion's one -->
+<!-- Replace vendor/nxp-opensource/kernel_imx with technexion -->
 <remove-project name="linux-imx" />
 <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
+
+<!-- Replace vendor/nxp-opensource/imx with technexion -->
+<remove-project name="android-imx_platform_hardware_imx" />
+<project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_github" revision="tn-android-13.0.0_1.2.0_8m-next" />
 
 <!-- Replace hardware/qcom/bt with technexion -->
 <remove-project name="platform/hardware/qcom/bt" />
