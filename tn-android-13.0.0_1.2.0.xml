@@ -16,7 +16,7 @@
 
 <!-- Replace vendor/nxp-opensource/imx with technexion -->
 <remove-project name="android-imx_platform_hardware_imx" />
-<project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_github" revision="tn-android-13.0.0_1.2.0_8m-next" />
+<project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_android" revision="tn-android-13.0.0_1.2.0_8m-next" />
 
 <!-- Replace hardware/qcom/bt with technexion -->
 <remove-project name="platform/hardware/qcom/bt" />
