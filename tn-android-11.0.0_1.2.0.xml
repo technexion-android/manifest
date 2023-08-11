@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<include name="imx-android-11.0.0_1.2.0_github.xml"/>
+
+<remote name="tn_android" fetch="https://github.com/technexion-android/" />
+<remote name="technexion" fetch="https://github.com/TechNexion/" />
+
+<!-- Replace vendor/nxp-opensource/uboot-imx with technexion -->
+<remove-project name="uboot-imx" />
+<project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="refs/tags/tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace vendor/nxp-opensource/kernel_imx with technexion -->
+<remove-project name="linux-imx" />
+<project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace vendor/nxp-opensource/imx with technexion -->
+<remove-project name="android-imx_platform_hardware_imx" />
+<project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace hardware/qcom/bt with technexion -->
+<remove-project name="aosp_platform_hardware_qcom_bt" />
+<project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_android" groups="qcom,pdk-qcom" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace hardware/interfaces with technexion -->
+<remove-project name="aosp_platform_hardware_interfaces" />
+<project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace hardware/nxp/nfc with technexion -->
+<remove-project name="platform/hardware/nxp/nfc" />
+<project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" groups="pdk" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace hardware/ril with technexion -->
+<remove-project name="platform/hardware/ril" />
+  <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace system/sepolicy with technexion -->
+<remove-project name="aosp_platform_system_sepolicy" />
+<project path="system/sepolicy" name="platform_system_sepolicy" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace system/nfc with technexion -->
+<remove-project name="platform/system/nfc" />
+<project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace system/core with technexion -->
+<remove-project name="aosp_platform_system_core" />
+<project path="system/core" name="platform_system_core" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace external/openssh with technexion -->
+<remove-project name="platform/external/openssh" />
+<project path="external/openssh" name="platform_external_openssh" groups="pdk" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace external/openssh with technexion -->
+<remove-project name="platform/external/ethtool" />
+<project path="external/ethtool" name="platform_external_ethtool" groups="pdk" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace external/chromium-webview with technexion -->
+<remove-project name="platform/external/chromium-webview" />
+<project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" clone-depth="1" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace device/nxp with technexion -->
+<remove-project name="android-imx_device_fsl" />
+<project path="device/nxp" name="platform_device_fsl" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" >
+  <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
+</project>
+
+<!-- Replace frameworks/native with technexion -->
+<remove-project name="aosp_platform_frameworks_native" />
+<project path="frameworks/native" name="platform_frameworks_native" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace frameworks/av with technexion -->
+<remove-project name="aosp_platform_frameworks_av" />
+<project path="frameworks/av" name="platform_frameworks_av" remote="tn_android" revision="tn-android-11.0.0_2.2.0_8m_next" />
+
+<!-- Replace packages/apps/Launcher3 with technexion -->
+<remove-project name="platform/packages/apps/Launcher3" />
+<project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Replace packages/apps/Nfc with technexion -->
+<remove-project name="platform/packages/apps/Nfc" />
+<project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<!-- Technexion's add-on -->
+<project path="cookers" name="cookers" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<project path="external/libgpiod" name="platform_external_libgpiod" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+<project path="external/can-utils" name="platform_external_can-utils" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<project path="packages/apps/GpiodJniTest" name="packages_apps_GpiodJniTest" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+<project path="packages/apps/DualCamera" name="packages_apps_DualCamera" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+<project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+
+</manifest>
