@@ -8,7 +8,7 @@
 
 <!-- Replace vendor/nxp-opensource/uboot-imx with technexion -->
 <remove-project name="uboot-imx" />
-<project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="tn-imx_v2022.04_5.15.71_2.2.0-android" />
+<project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="refs/tags/tn-android-13.0.0_1.2.0_8m-next" />
 
 <!-- Replace vendor/nxp-opensource/kernel_imx with technexion -->
 <remove-project name="linux-imx" />
