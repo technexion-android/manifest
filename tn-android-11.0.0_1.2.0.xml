@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<include name="imx-android-11.0.0_1.2.0_github.xml"/>
+<include name="tn-imx-android-11.0.0_2.2.0_github.xml"/>
 
 <remote name="tn_android" fetch="https://github.com/technexion-android/" />
 <remote name="technexion" fetch="https://github.com/TechNexion/" />
