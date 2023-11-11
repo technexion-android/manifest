@@ -82,6 +82,7 @@
 
 <!-- Technexion's add-on -->
 <project path="cookers" name="cookers" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
+<project path="vendor/technexion" name="vendor_technexion" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
 
 <project path="external/libgpiod" name="platform_external_libgpiod" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
 <project path="external/can-utils" name="platform_external_can-utils" remote="tn_android" revision="tn-android-11.0.0_1.2.0_8m-next" />
