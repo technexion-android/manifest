@@ -8,7 +8,7 @@
 
 <!-- Replace vendor/nxp-opensource/uboot-imx with technexion -->
 <remove-project name="uboot-imx" />
-<project path="vendor/nxp-opensource/uboot-imx" name="u-boot-tn-imx" remote="technexion" revision="tn-imx_v2022.04_5.15.71_2.2.0-android" />
+<project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="tn_android" revision="tn-android13_1.2.0-2024.04" />
 
 <!-- Add qcacld-2.0 wifi driver with technexion-->
 <project path="vendor/nxp-opensource/qcacld-2.0" name="qcacld-2.0" remote="technexion" revision="tn-CNSS.LEA.NRT_3.1" />
