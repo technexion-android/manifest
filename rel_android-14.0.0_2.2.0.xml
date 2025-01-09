@@ -47,7 +47,7 @@
 <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 </project>
 <project path="bootable/recovery" name="aosp_platform_bootable_recovery" remote="imx-android" revision="refs/tags/android-14.0.0_2.2.0" groups="pdk"/>
-<project path="development" name="platform_development_test" remote="imx-android" revision="refs/tags/android-14.0.0_2.2.0" groups="developers,pdk-cw-fs,pdk-fs"/>
+<project path="development" name="aosp_platform_development" remote="imx-android" revision="refs/tags/android-14.0.0_2.2.0" groups="developers,pdk-cw-fs,pdk-fs"/>
 <project path="device/google/cuttlefish" name="aosp_device_google_cuttlefish" remote="imx-android" revision="refs/tags/android-14.0.0_2.2.0" groups="device,pdk" />
 <project path="device/google/trout" name="aosp_device_google_trout" remote="imx-android" revision="refs/tags/android-14.0.0_2.2.0" groups="device,trout,gull,pdk" />
 <project path="external/libyaml" name="android-imx_github_libyaml" remote="imx-android" revision="refs/tags/android-14.0.0_2.2.0" />
