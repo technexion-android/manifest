@@ -35,6 +35,10 @@
 	<linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
 </project>
 
+<!-- Replace packages/modules/Bluetooth with technexion -->
+<remove-project name="platform/packages/modules/Bluetooth" />
+<project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="tn_android" revision="tn-android-14.0.0_2.2.0" />
+
 <project path="cookers" name="cookers" remote="tn_android" revision="tn-android-14.0.0_2.2.0" />
 <project path="vendor/technexion" name="vendor_technexion" remote="tn_android" revision="tn-android-14.0.0_2.2.0" />
 
