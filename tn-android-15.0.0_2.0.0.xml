@@ -5,6 +5,12 @@
 
 <remote name="tn_android" fetch="https://github.com/technexion-android/" />
 
+<!-- Replace device/nxp with technexion -->
+<remove-project name="android-imx_device_fsl" />
+<project path="device/nxp" name="platform_device_fsl" remote="tn_android" revision="tn-android-15.0.0_2.0.0" >
+	<linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
+</project>
+
 <project path="cookers" name="cookers" remote="tn_android" revision="tn-android-15.0.0_2.0.0" />
 
 </manifest>
