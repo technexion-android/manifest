@@ -20,6 +20,10 @@
 <!-- Add hardware/qcom/bt with technexion -->
 <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_android" groups="qcom,pdk-qcom" revision="tn-android-15.0.0_2.0.0" />
 
+<!-- Replace hardware/nxp/bt with technexion -->
+<remove-project name="android-imx_platform_hardware_nxp_libbt" />
+<project path="hardware/nxp/libbt" name="platform_hardware_nxp_libbt" remote="tn_android" revision="tn-android-15.0.0_2.0.0" />
+
 <!-- Replace device/nxp with technexion -->
 <remove-project name="android-imx_device_fsl" />
 <project path="device/nxp" name="platform_device_fsl" remote="tn_android" revision="tn-android-15.0.0_2.0.0" >
