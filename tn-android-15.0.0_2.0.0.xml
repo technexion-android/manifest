@@ -24,5 +24,6 @@
 </project>
 
 <project path="cookers" name="cookers" remote="tn_android" revision="tn-android-15.0.0_2.0.0" />
+<project path="vendor/technexion" name="vendor_technexion" remote="tn_android" revision="tn-android-15.0.0_2.0.0" />
 
 </manifest>
