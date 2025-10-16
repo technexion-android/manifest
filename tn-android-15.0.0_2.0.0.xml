@@ -17,6 +17,10 @@
 <remove-project name="linux-imx" />
 <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="tn_android" revision="tn-android-15_2.0.0_6.12.23" />
 
+<!-- Replace vendor/nxp-opensource/imx-oei with technexion -->
+<remove-project name="imx-oei" />
+<project path="vendor/nxp-opensource/imx-oei" name="imx-oei" remote="technexion" revision="tn-imx_6.12.34_2.1.0" />
+
 <!-- Replace vendor/nxp-opensource/imx with technexion -->
 <remove-project name="android-imx_platform_hardware_imx" />
 <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_android" revision="tn-android-15.0.0_2.0.0" />
