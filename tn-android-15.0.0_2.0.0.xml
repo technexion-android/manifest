@@ -29,6 +29,10 @@
 <remove-project name="android-imx_platform_hardware_imx" />
 <project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_android" revision="tn-android-15.0.0_2.0.0" />
 
+<!-- Replace vendor/nxp-opensource/libcamera with technexion -->
+<remove-project name="libcamera" />
+<project path="vendor/nxp-opensource/libcamera" name="libcamera" remote="tn_android" revision="tn-android-15.0.0_2.0.0" />
+
 <!-- Add hardware/qcom/bt with technexion -->
 <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_android" groups="qcom,pdk-qcom" revision="tn-android-15.0.0_2.0.0" />
 
