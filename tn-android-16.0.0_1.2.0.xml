@@ -4,6 +4,7 @@
 <include name="imx-android-16.0.0_1.2.0.xml"/>
 
 <remote name="tn_android" fetch="https://github.com/technexion-android/" />
+<remote name="technexion" fetch="https://github.com/TechNexion/" />
 
 <!-- For Technexion-android modified NXP git -->
 <remove-project name="android-imx_device_fsl" />
@@ -19,5 +20,8 @@
 
 <!-- For Technexion-android pub git-->
 <project path="cookers" name="cookers" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
+
+<!-- For Technexion pub git-->
+<project path="vendor/nxp-opensource/qcacld-2.0" name="qcacld-2.0" remote="technexion" revision="tn-CNSS.LEA.NRT_3.1" />
 
 </manifest>
