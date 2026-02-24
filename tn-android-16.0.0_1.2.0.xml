@@ -21,6 +21,7 @@
 <!-- For Technexion-android pub git-->
 <project path="cookers" name="cookers" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
 <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_android" groups="qcom,pdk-qcom" revision="bc87794f88681dedeceaa03ed8c0614389cca4f7" />
+<project path="vendor/technexion" name="vendor_technexion" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
 
 <!-- For Technexion pub git-->
 <project path="vendor/nxp-opensource/qcacld-2.0" name="qcacld-2.0" remote="technexion" revision="tn-CNSS.LEA.NRT_3.1" />
