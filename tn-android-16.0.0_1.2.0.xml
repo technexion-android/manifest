@@ -18,6 +18,9 @@
 <remove-project name="uboot-imx" />
 <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="tn_android" revision="tn-android-16_1.2.0_2025.04" />
 
+<remove-project name="android-imx_platform_hardware_imx" />
+<project path="vendor/nxp-opensource/imx" name="platform_hardware_imx" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
+
 <remove-project name="android-imx_platform_hardware_nxp_libbt" />
 <project path="hardware/nxp/libbt" name="platform_hardware_nxp_libbt" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
 
