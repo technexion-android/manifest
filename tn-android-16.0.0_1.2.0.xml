@@ -21,6 +21,9 @@
 <remove-project name="android-imx_platform_hardware_nxp_libbt" />
 <project path="hardware/nxp/libbt" name="platform_hardware_nxp_libbt" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
 
+<remove-project name="aosp_platform_hardware_interfaces" />
+<project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
+
 <!-- For Technexion-android pub git-->
 <project path="cookers" name="cookers" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
 <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="tn_android" groups="qcom,pdk-qcom" revision="bc87794f88681dedeceaa03ed8c0614389cca4f7" />
