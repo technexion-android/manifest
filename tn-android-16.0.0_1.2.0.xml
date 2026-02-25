@@ -40,6 +40,10 @@
 <project path="vendor/technexion" name="vendor_technexion" remote="tn_android" revision="tn-android-16.0.0_1.2.0" />
 <project path="packages/apps/LibgpiodPrebuilt" name="package_apps_LibgpiodPrebuilt" remote="tn_android" revision="master" />
 
+<!-- For Technexion modified NXP git-->
+<remove-project name="imx-oei" />
+<project path="vendor/nxp-opensource/imx-oei" name="imx-oei" remote="technexion" revision="tn-imx_6.12.49_2.2.0" />
+
 <!-- For Technexion pub git-->
 <project path="vendor/nxp-opensource/qcacld-2.0" name="qcacld-2.0" remote="technexion" revision="tn-CNSS.LEA.NRT_3.1" />
 
